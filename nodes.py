@@ -46,6 +46,8 @@ class MuseModelConfig:
         self.memory_usage_factor = 1.0
         self.custom_operations = None
         self.optimizations = {}
+        self.scaled_fp8 = None
+
 
 class UNETLoader_MuseTalk:
     @classmethod
